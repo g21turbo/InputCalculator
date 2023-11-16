@@ -23,13 +23,10 @@ public class Main {
             } else {
                 break;
             }
-
-
-
+            if (count > 0) {
+                avg = Math.round(sum / count);
+            }
         }
-        System.out.println(number);
-
+        System.out.println("SUM = " + sum + " AVG = " + avg);
     }
-
-
 }
